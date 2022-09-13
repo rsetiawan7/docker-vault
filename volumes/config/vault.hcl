@@ -13,5 +13,5 @@ storage "file" {
 
 max_lease_ttl = "10h"
 default_lease_ttl = "10h"
-api_addr = "http://127.0.0.1:8200"
+api_addr = "http://127.0.0.1:8200/v1"
 disable_clustering = "true"
