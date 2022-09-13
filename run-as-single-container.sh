@@ -6,6 +6,5 @@ docker run \
   -v $(pwd)/volumes/file:/vault/file \
   -v $(pwd)/volumes/config:/vault/config \
   --cap-add="IPC_LOCK" \
-  --entrypoint="vault server -config=/vault/config/vault.json" \
   --name vault \
-  vault
+  vault vault server -config /vault/config/vault.hcl

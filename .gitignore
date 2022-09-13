@@ -1,6 +1,6 @@
 volumes/config/*
 !volumes/config/.gitkeep
-!volumes/config/vault.json
+!volumes/config/vault.hcl
 volumes/file/*
 !volumes/file/.gitkeep
 volumes/logs/*
